@@ -1,0 +1,56 @@
+.header img{
+    width: 30%;
+    height: 100px;
+    /* background-color: #003A63; */
+}
+
+/* .header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+} */
+
+.home{
+    margin-top: 200px;
+}
+
+.sidebar{
+    width: auto;
+    height: auto;
+    background-color: #003A63;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns items to the left */
+    text-align: left;
+    float: left;
+}
+
+.content{
+    margin-left: 280px;
+}
+
+.color{
+    color: white;
+}
+.bg-image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width to 100% of the viewport */
+    height: 100%; /* Ensure the height takes the full viewport */
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bg-vid {
+    width: 100%; /* This ensures that the image scales with the viewport width */
+    height: 100%; /* Maintain the aspect ratio of the image */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+  .Color{           
+    color: darkorange;    /*SRFET color*/
+  }
